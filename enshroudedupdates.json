@@ -23,32 +23,10 @@
         "OneShot": false
     },
     {
-        "UpdateStageName": "Initialize Wine",
+        "UpdateStageName": "Download Proton",
         "UpdateSourcePlatform": "Linux",
-        "UpdateSource": "Executable",
-        "UpdateSourceData": "/bin/bash",
-        "UpdateSourceArgs": "-c 'WINEPREFIX=\\\"{{$FullRootDir}}.wine\\\" WINEARCH=win64 /usr/bin/wineboot --init --update'",
-        "UnzipUpdateSource": false,
-        "OverwriteExistingFiles": false,
-        "DeleteAfterExtract": true,
-        "OneShot": false
-    },
-    {
-        "UpdateStageName": "Winescript Download",
-        "UpdateSourcePlatform": "Linux",
-        "UpdateSource": "FetchURL",
-        "UpdateSourceTarget": "{{$FullInstanceDir}}",
-        "UnzipUpdateSource": false,
-        "OverwriteExistingFiles": true,
-        "DeleteAfterExtract": false,
-        "OneShot": false
-    },
-    {
-        "UpdateStageName": "Install Windows Components",
-        "UpdateSourcePlatform": "Linux",
-        "UpdateSource": "Executable",
-        "UpdateSourceData": "/bin/bash",
-        "UpdateSourceArgs": "./winescript.sh",
+        "UpdateSource": "SteamCMD",
+        "UpdateSourceData": "2348590",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
         "DeleteAfterExtract": true,

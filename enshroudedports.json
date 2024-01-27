@@ -1,14 +1,14 @@
 [
     {
         "Protocol": "Both",
-        "Port": "15778",
+        "Port": "15636",
         "Name": "Main Game Port",
         "Description": "Port used for main game traffic",
         "Ref": "MainGamePort"
     },
     {
         "Protocol": "Both",
-        "Port": "15779",
+        "Port": "15637",
         "Name": "Steam Query Port",
         "Description": "Port used for main game traffic",
         "Ref": "SteamQueryPort"
