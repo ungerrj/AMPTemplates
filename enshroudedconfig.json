@@ -8,8 +8,12 @@
         "InputType": "text",
         "IsFlagArgument": false,
         "ParamFieldName": "name",
-        "IncludeInCommandLine": true,
+        "IncludeInCommandLine": false,
         "DefaultValue": "AMP Powered Enshrouded Server",
+        "Placeholder": "AMP Powered Enshrouded Server",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": false,
         "EnumValues": {}
     },
     {
@@ -21,8 +25,12 @@
         "InputType": "password",
         "IsFlagArgument": false,
         "ParamFieldName": "password",
-        "IncludeInCommandLine": true,
+        "IncludeInCommandLine": false,
         "DefaultValue": "",
+        "Placeholder": "",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": false,
         "EnumValues": {}
     },
     {
@@ -34,8 +42,12 @@
         "InputType": "number",
         "IsFlagArgument": false,
         "ParamFieldName": "$MaxUsers",
-        "IncludeInCommandLine": true,
-        "DefaultValue": "6",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "16",
+        "Placeholder": "16",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": false,
         "EnumValues": {}
     }
 ]
